@@ -14,23 +14,27 @@ html {
   }
 
   h1 {
+    position: absolute;
     color: yellow;
-    text-align: right;
-    transform: translate(0%,-580%);
-    padding-right: 20%;
+    text-align: center;
+    transform: translate(275px,-250px);
+    padding-right: 15%;
     font-size: 300%;
+    word-wrap: break-word;
   }
 
   h2 {
+    position: absolute;
+    text-align: center;
+    transform: translate(0px,-150px);
+    padding-left: 20%;
+    padding-bottom: 20%;
     position: right;
+    word-wrap: break-word;
   }
   
   p {
     color: yellow;
-    text-align: center;
-    transform: translate(0%,-300%);
-    padding-left: 25%;
-    position: right;
   }
 
   a {
@@ -55,15 +59,18 @@ html {
   }
   rectangle2 {
     position: absolute;
-    top: 50%;
+    top: 500px;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #000000;
+    max-width: 500px;
     width: 500px;
-    height: 28%;
+    max-height: 250px;
+    height: 250px;
     border: ridge;
     border-color: #ffff80;
     border-width: 10px;
+    contain: size;
   }
 
   .welcome {

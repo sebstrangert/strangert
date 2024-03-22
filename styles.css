@@ -32,6 +32,14 @@ html {
     position: right;
     word-wrap: break-word;
   }
+
+  h3 {
+    color: yellow;
+    transform: translate(0px,650px);
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
   
   p {
     color: yellow;
@@ -57,7 +65,8 @@ html {
     font-size: 20px;
     font-family: Bahnschrift; */
   }
-  rectangle2 {
+
+  .rectangle2 {
     position: absolute;
     top: 500px;
     left: 50%;
@@ -71,6 +80,13 @@ html {
     border-color: #ffff80;
     border-width: 10px;
     contain: size;
+  }
+  .rectangle2, fadeH3 {
+    transition: opacity 1s ease;
+    opacity: 1;
+  }
+  .fade-out {
+    opacity: 0;
   }
 
   .welcome {

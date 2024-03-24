@@ -89,6 +89,10 @@ html {
     opacity: 0;
   }
 
+  .fade-in {
+    opacity: 1;
+  }
+
   .welcome {
     display: block;
     margin-left: auto;
@@ -101,4 +105,16 @@ html {
     margin-right: auto;
     width: 40%;
     height: 100%;
+  }
+
+  .door{
+    position: absolute;
+    transform: translate(-50%, 10%);
+    top: 15%;
+    left: 50%;
+    max-width: 100%;
+  }
+
+  #doorgif{
+    display: none;
   }

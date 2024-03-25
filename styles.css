@@ -64,7 +64,6 @@ html {
     height: 250px;
     margin-left: auto;
     margin-right: auto;
-    
   }
 
   .navlink a{
@@ -150,3 +149,8 @@ html {
     display: none;
   }
 
+ .construction{
+  margin-left: auto;
+  margin-right: auto;
+  width: 49%;
+ }

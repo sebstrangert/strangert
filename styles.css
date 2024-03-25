@@ -42,28 +42,45 @@ html {
   }
   
   p {
-    color: yellow;
+    color: rgb(255, 255, 0);
+    padding-left: 10px;
   }
 
   a {
     text-decoration: none;
   }
-  
-  rectangle {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #005050;
-    background-image: url("images/background2.png");
-    width: 550px;
-    height: 15%;
+
+  .sidebar{
     border: ridge;
     border-color: #008080;
     border-width: 10px;
-/*  text-align: center;
-    font-size: 20px;
-    font-family: Bahnschrift; */
+    contain: size;
+    background: #005050;
+    background-image: url("images/background3.jpg");
+    transform: translate(75px,250px);
+    max-width: 150px;
+    width: 150px;
+    max-height: 250px;
+    height: 250px;
+    text-align: left;
+    
+  }
+  
+  .rectangle {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-250px, -425px);
+    background: #005050;
+    background-image: url("images/background2.png");
+    max-width: 500px;
+    width: 500px;
+    max-height: 150px;
+    height: 150px;
+    border: ridge;
+    border-color: #008080;
+    border-width: 10px;
+    contain: size;
   }
 
   .rectangle2 {
@@ -118,3 +135,4 @@ html {
   #doorgif{
     display: none;
   }
+

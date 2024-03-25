@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Add a delay before redirecting to main.html
         setTimeout(function() {
-            window.location.href = "pages/main.html"; // Replace with your desired URL
+            window.location.href = "main.html"; // Replace with your desired URL
         }, 7000); // Adjust the delay as needed
     });
 });

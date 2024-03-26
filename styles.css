@@ -15,7 +15,8 @@ html {
   .main-background{
     background-image: url(images/background5.JPG);
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
   }
 
   h1 {
@@ -52,6 +53,13 @@ html {
     font-size: 35px;
     font-family: 'Courier New', Courier, monospace;
   }
+
+  h5 {
+    color: yellow;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+  }
   
   p {
     color: yellow;
@@ -71,11 +79,13 @@ html {
     contain: size;
     transform: translate(0px,-20px);
     max-width: 460px;
-    max-height: 250px;
-    height: 1250px;
+    max-height: 230px;
+    height: 230px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     font-family: Lucida Console;
   }
 
@@ -83,15 +93,17 @@ html {
     border: ridge;
     border-color: darkcyan;
     border-width: 10px;
-    background-image: url(images/background4.JPG);
+    background-image: url(images/background6.JPG);
     contain: size;
-    transform: translate(0px,-20px);
+    transform: translate(0px,0px);
     max-width: 460px;
-    max-height: 250px;
-    height: 1250px;
+    max-height: 230px;
+    height: 230px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     font-family: Lucida Console;
   }
 

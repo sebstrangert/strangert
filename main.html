@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"/>
     <title>Sebastian Strångert's portfolio</title>
-    </a>
 </head>
 <body>
     <div class="main-background">
@@ -24,14 +23,22 @@
                     <h4>Welcome, visitor...</h4>
                     <p>Hej! My name is Sebastian "Seb" Strångert and this is my portfolio website. Even if you're here for business or entertainment, feel free to explore!</p>
                 </div>
-                <div class="middlebar-2">
+                <div class="middlebar-2" overflow-y: scroll;>
                     <h5>What's the scoop?</h5>
-                    <p>2024-03-26</p>
-                    <p>Doing the finishing touches on mainpage, gonna prioritize aboutpage and contactpage after that.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>[2024-03-26]</td>
+                                <td>Doing the finishing touches on mainpage, gonna prioritize aboutpage and contactpage after that.</td>
+                            </tr>
+                        </thead>
+                    </table>
                 </div>
-                <div class="rightbar">
+                <div class="rightbar" id="randomImageContainer">
                     <p></p>
+                    <img id="randomImage" src="" alt="Random Image">
                 </div>
+                <script src="randomImage.js" defer></script>
     </div>
 </body>
 </html>

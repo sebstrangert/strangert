@@ -7,12 +7,23 @@ document.addEventListener("DOMContentLoaded", function() {
         // Add more image paths as needed
     ];
 
-    // Select a random index from the array
-    var randomIndex = Math.floor(Math.random() * imagePaths.length);
+    // Variable to store the index of the previously selected image
+    var previousIndex = -1;
+
+    // Function to select a random image index
+    function getRandomIndex() {
+        var index = Math.floor(Math.random() * imagePaths.length);
+        // Ensure that the newly selected index is different from the previous one
+        if (index === previousIndex) {
+            index = (index + 1) % imagePaths.length; // Move to the next index
+        }
+        previousIndex = index;
+        return index;
+    }
 
     // Get the image element
     var randomImage = document.getElementById("randomImage");
 
-    // Set the src attribute of the image to the randomly selected image path
-    randomImage.src = imagePaths[randomIndex];
+    // Set the src attribute of the image to a randomly selected image path
+    randomImage.src = imagePaths[getRandomIndex()];
 });

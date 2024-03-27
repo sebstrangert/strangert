@@ -85,7 +85,7 @@ html {
     border-width: 10px;
     background-image: url(images/background7.JPG);
     contain: size;
-    transform: translate(100px,-20px);
+    transform: translate(95px,-20px);
     max-width: 650px;
     max-height: 300px;
     height: 300px;
@@ -193,7 +193,7 @@ html {
     border-color: darkcyan;
     border-width: 10px;
     background-image: url(images/background6.JPG);
-    transform: translate(180px, -20px);
+    transform: translate(170px, -20px);
     max-width: 800px;
     max-height: 800px;
     height: auto; /* Adjust height to auto so it expands based on content */
@@ -211,27 +211,19 @@ html {
     margin-bottom: 10px; /* Add some spacing between images */
     position: relative;
   }
-  
-  .middlebar-3 img:hover::after {
-    content: attr(alt); /* Show the alt text as the hover text */
-    position: absolute; /* Position the text absolutely over the image */
-    bottom: 0; /* Position it at the bottom of the image */
-    left: 0; /* Position it at the left of the image */
-    width: 100%; /* Make it cover the entire width of the image */
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    color: white; /* Text color */
-    padding: 5px; /* Add padding for readability */
-    text-align: center; /* Center the text horizontally */
-    z-index: 1; /* Ensure the text appears above the image */
-    transition: opacity 0.3s ease; /* Add transition effect */
-    opacity: 0; /* Initially hide the text */
-  }
-  
-  .middlebar-3 img:hover::after {
-    opacity: 1; /* Show the text on hover */
-  }
-  
 
+  .middlebar-3 p {
+    font-size: 20px;
+    color: yellow; /* Adjust the color as needed */
+    text-align: center;
+    margin-bottom: 20px; /* Adjust spacing between images and descriptions */
+  }
+
+  .twodartlogo{
+    text-align: center;
+    padding: 20px;
+  }
+  
   td{
     border: 1px dotted darkorchid;
     color: yellow;

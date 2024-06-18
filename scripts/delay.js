@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 
         var doorGIF = new Image();
-        doorGIF.src = "images/door_optimized.gif"; 
+        doorGIF.src = "../images/door_optimized.gif"; 
 
     document.getElementById("fadeOutDiv").addEventListener("click", function(event) {
         event.preventDefault(); // Prevent the default action of the click event
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         setTimeout(function() {
             var doorgif = document.getElementById("doorgif");
-            doorgif.src = "images/door_optimized.gif"; // Replace "yourGif.gif" with the path to your GIF
+            doorgif.src = "../images/door_optimized.gif"; // Replace "yourGif.gif" with the path to your GIF
             document.getElementById("doorgif").style.display = "inline"; // Show the GIF
         }, 1000); // Adjust the delay time as needed (1000 milliseconds = 1 second)
 
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Add a delay before redirecting to main.html
         setTimeout(function() {
-            window.location.href = "main.html"; // Replace with your desired URL
+            window.location.href = "../html/main.html"; // Replace with your desired URL
         }, 7000); // Adjust the delay as needed
     });
 });

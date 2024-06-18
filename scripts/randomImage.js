@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Array containing paths to your images
     var imagePaths = [
-        "images/placeholder1.png",
-        "images/placeholder2.png",
-        "images/placeholder3.png",
+        "../images/placeholder1.png",
+        "../images/placeholder2.png",
+        "../images/placeholder3.png",
         // Add more image paths as needed
     ];
 

@@ -551,10 +551,8 @@ html {
 
 .gallery-caption-lower {
   font-family: ibm plex;
-  position: absolute;
+  position: sticky;
   bottom: 10px;
-  left: 50%;
-  transform: translate(-50%,115%);
   background-color: rgba(0, 0, 0, 0.5);
   padding: 5px 10px;
   border-radius: 5px;
@@ -574,6 +572,7 @@ html {
   height: 100%;
   overflow: auto;
   background-color: #00000000;
+
 }
 
 .gallery-item:hover .gallery-image {
